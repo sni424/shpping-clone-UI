@@ -106,6 +106,20 @@ const Footer = () => {
           <ListItem>Terms</ListItem>
         </List>
       </Center>
+      <Right>
+        <Title>Contact</Title>
+        <ContactItem>
+          <FaMapMarkerAlt style={{ marginRight: '10px' }} /> 622 Dixie Path ,
+          South Tobinchester 98336
+        </ContactItem>
+        <ContactItem>
+          <FaPhoneAlt style={{ marginRight: '10px' }} /> +1 234 56 78
+        </ContactItem>
+        <ContactItem>
+          <FaEnvelope style={{ marginRight: '10px' }} /> contact@lama.dev
+        </ContactItem>
+        <PayMent src="https://i.ibb.co/Qfvn4z6/payment.png" />
+      </Right>
     </Container>
   );
 };
