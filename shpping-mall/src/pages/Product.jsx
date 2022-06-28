@@ -1,4 +1,5 @@
 import { FaMinus, FaPlus } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import Announcement from '../components/Announcement';
 import Footer from '../components/Footer';
@@ -101,6 +102,9 @@ const Button = styled.button`
 const Product = () => {
   return (
     <Container>
+      <Link to="/weather">
+        <h1>hello</h1>
+      </Link>
       <Navbar />
       <Announcement />
       <Wrapper>
